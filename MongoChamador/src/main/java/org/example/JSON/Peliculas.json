@@ -1,0 +1,54 @@
+[
+  {
+    "id_pelicula": 101,
+    "titulo": "Crónicas de Alpha Centauri",
+    "xenero": "Ciencia Ficción",
+    "ano": 2028,
+    "actores": [
+      {
+        "idactor": 501,
+        "nome": "Elena",
+        "apelidos": "Vargas",
+        "nacionalidade": "Argentina"
+      },
+      {
+        "idactor": 502,
+        "nome": "Hiroshi",
+        "apelidos": "Tanaka",
+        "nacionalidade": "Xaponesa"
+      },
+      {
+        "idactor": 503,
+        "nome": "Sarah",
+        "apelidos": "O'Connor",
+        "nacionalidade": "Irlandesa"
+      }
+    ]
+  },
+  {
+    "id_pelicula": 102,
+    "titulo": "O Último Refuxio",
+    "xenero": "Drama Post-apocalíptico",
+    "ano": 2026,
+    "actores": [
+      {
+        "idactor": 601,
+        "nome": "Marc",
+        "apelidos": "Dubois",
+        "nacionalidade": "Francesa"
+      },
+      {
+        "idactor": 602,
+        "nome": "Lucía",
+        "apelidos": "Mendes",
+        "nacionalidade": "Brasileira"
+      },
+      {
+        "idactor": 603,
+        "nome": "Kofi",
+        "apelidos": "Mensah",
+        "nacionalidade": "Ghanesa"
+      }
+    ]
+  }
+]
