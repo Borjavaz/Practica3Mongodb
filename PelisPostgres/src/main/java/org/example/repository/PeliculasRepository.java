@@ -1,3 +1,4 @@
+// PeliculasRepository.java (PostgreSQL)
 package org.example.repository;
 
 import org.example.model.Actores;

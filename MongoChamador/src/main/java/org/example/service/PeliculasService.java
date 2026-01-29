@@ -61,7 +61,7 @@ public class PeliculasService {
     public List<PeliculaMongo> subirJson(){
         Gson gson = new Gson();
         try {
-            FileReader reader = new FileReader("src/main/java/org/example/Json/Peliculas.json");
+            FileReader reader = new FileReader("/home/dam/Escritorio/AD/2ºTRIMESTRE/Mongo/Practica3Mongo/MongoChamador/src/main/java/org/example/JSON/Peliculas.json");
             Type tipoLista = new TypeToken<List<PeliculaMongo>>() {}.getType();
             List<PeliculaMongo> peliculases = gson.fromJson(reader, tipoLista);
 
@@ -80,7 +80,7 @@ public class PeliculasService {
         List<PeliculaMongo> ps = buscarPeliculass();
         Gson gson = new Gson();
 
-        try (FileWriter escritor = new FileWriter("src/main/java/org/example/Json/Peliculas.json")){
+        try (FileWriter escritor = new FileWriter("/home/dam/Escritorio/AD/2ºTRIMESTRE/Mongo/Practica3Mongo/MongoChamador/src/main/java/org/example/JSON/Peliculas.json")){
 
             String json = gson.toJson(ps);
             escritor.write(json);

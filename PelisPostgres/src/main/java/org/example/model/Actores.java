@@ -1,3 +1,4 @@
+// Actores.java (PostgreSQL)
 package org.example.model;
 
 import com.fasterxml.jackson.annotation.JsonBackReference;
@@ -21,7 +22,7 @@ public class Actores {
     private String nacionalidade;
 
     @ManyToOne
-    @JoinColumn(name = "idpelicula")
+    @JoinColumn(name = "id_pelicula")
     @JsonBackReference
     private Peliculas peliculas;
 

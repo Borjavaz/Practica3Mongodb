@@ -1,3 +1,4 @@
+// Peliculas.java (PostgreSQL)
 package org.example.model;
 
 import com.fasterxml.jackson.annotation.JsonManagedReference;

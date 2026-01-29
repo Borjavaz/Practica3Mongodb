@@ -39,7 +39,7 @@ public class ActoresService {
     public List<ActorMongo> subirJson(){
         Gson gson = new Gson();
         try {
-            FileReader reader = new FileReader("src/main/java/org/example/Json/Actores.json");
+            FileReader reader = new FileReader("/home/dam/Escritorio/AD/2ºTRIMESTRE/Mongo/Practica3Mongo/MongoChamador/src/main/java/org/example/JSON/Actores.json");
             Type tipoLista = new TypeToken<List<ActorMongo>>() {}.getType();
             List<ActorMongo> actoress = gson.fromJson(reader, tipoLista);
 

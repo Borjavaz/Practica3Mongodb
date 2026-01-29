@@ -1,0 +1,44 @@
+[
+  {
+    "idactor": 1,
+    "nome": "Javier",
+    "apelidos": "Bardem",
+    "nacionalidade": "Española",
+    "id_peliculas": 1
+  },
+  {
+    "idactor": 2,
+    "nome": "Emily",
+    "apelidos": "Blunt",
+    "nacionalidade": "Británica",
+    "id_peliculas": 1
+  },
+  {
+    "idactor": 3,
+    "nome": "Pedro",
+    "apelidos": "Pascal",
+    "nacionalidade": "Chilena",
+    "id_peliculas": 1
+  },
+  {
+    "idactor": 4,
+    "nome": "Ricardo",
+    "apelidos": "Darín",
+    "nacionalidade": "Arxentina",
+    "id_peliculas": 2
+  },
+  {
+    "idactor": 5,
+    "nome": "Marion",
+    "apelidos": "Cotillard",
+    "nacionalidade": "Francesa",
+    "id_peliculas": 2
+  },
+  {
+    "idactor": 6,
+    "nome": "Mads",
+    "apelidos": "Mikkelsen",
+    "nacionalidade": "Danesa",
+    "id_peliculas": 2
+  }
+]
